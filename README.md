@@ -26,10 +26,16 @@ After the stocks are fetched, your job is to:
   like is already in the `Stock` component.
 
 - Allow a user to buy a stock by clicking on it and when it is bought, it should
-  be added to `MyPortfolio`.
+  be added to `MyPortfolio`.  The stock can be bought only **once**.  The stock should not dissapear from StockContainer.
 
 - Allow a user to sell a stock in their `Portfolio` by clicking on the stock and
   it should be removed from their `Portfolio`.
+
+- Shut down a business by clicking the `shutdown!` button.  Which would delete the Stock from both the backend and from the Portfolio on the frontend.
+
+
+## Bonus!
+
 
 - Allow a user to sort the list of stocks alphabetically by the ticker name as
   well as by ascending price.
