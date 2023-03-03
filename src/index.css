@@ -12,6 +12,11 @@ h2 {
   text-align: center;
 }
 
+.card-button {
+  width: 25%;
+  text-align: center
+}
+
 .list-group {
   width: 50%;
   margin: 0 auto;
