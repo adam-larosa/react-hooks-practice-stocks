@@ -3,13 +3,13 @@ import StockContainer from "./StockContainer";
 import PortfolioContainer from "./PortfolioContainer";
 import SearchBar from "./SearchBar";
 
-function MainContainer({ stocks }) {
+function MainContainer() {
   return (
     <div>
       <SearchBar />
       <div className="row">
         <div className="col-8">
-          <StockContainer stocks={ stocks } />
+          <StockContainer />
         </div>
         <div className="col-4">
           <PortfolioContainer  />

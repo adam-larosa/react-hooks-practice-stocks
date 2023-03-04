@@ -3,17 +3,11 @@ import Header from "./Header";
 import MainContainer from "./MainContainer";
 
 function App() {
-  const [ stocks, setStocks ] = useState( [] )
-
-  useEffect( () => {
-    fetch( 'http://localhost:3001/stocks' )
-      .then( r => r.json() )
-      .then( setStocks )
-  }, [] )
+  
   return (
     <div>
       <Header />
-      <MainContainer stocks={ stocks } />
+      <MainContainer />
     </div>
   );
 }

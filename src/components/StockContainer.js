@@ -5,9 +5,7 @@ function StockContainer({ stocks }) {
   return (
     <div>
       <h2>Stocks</h2>
-      {
-        stocks.map( s => <Stock key={s.id} { ...s }/>)
-      }
+      {/* ...you're code here... */}
     </div>
   );
 }
