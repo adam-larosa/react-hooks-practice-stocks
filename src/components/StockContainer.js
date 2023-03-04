@@ -1,7 +1,7 @@
 import React from "react";
 import Stock from "./Stock";
 
-function StockContainer({ stocks }) {
+function StockContainer() {
   return (
     <div>
       <h2>Stocks</h2>
