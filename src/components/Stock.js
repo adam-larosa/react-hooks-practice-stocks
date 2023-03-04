@@ -7,7 +7,7 @@ function Stock() {
   }
 
   const handleButton = () => {
-    console.log("add code to connect event listener")
+    console.log("add code to connect the event listener")
   }
   
   return (
