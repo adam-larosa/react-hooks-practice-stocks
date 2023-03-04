@@ -31,7 +31,7 @@ After the stocks are fetched, your job is to:
 - Allow a user to sell a stock in their `Portfolio` by clicking on the stock and
   it should be removed from their `Portfolio`.
 
-- Shut down a business by clicking the `shutdown!` button.  Which would delete the Stock from both the backend and from the Portfolio on the frontend.
+- Shut down a business by clicking the `shut down!` button.  Which would delete the Stock from both the backend and from the Portfolio on the frontend.
 
 
 ## Bonus!
